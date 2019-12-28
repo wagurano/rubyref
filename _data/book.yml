@@ -1,71 +1,71 @@
 ---
 ruby_version: '2.6'
 chapters:
-- title: Introduction
+- title: 소개
   path: "/"
   children:
-  - title: Installation
+  - title: 설치
     path: "/intro/installation.html"
-  - title: Other Implementations of Ruby
+  - title: 루비 구현체
     path: "/intro/implementations.html"
-  - title: Interactive Console
+  - title: 인터렉티브 콘솔
     path: "/intro/irb.html"
-  - title: Ruby in Twenty Minutes
+  - title: 20분만에 배우는 루비
     path: "/intro/quickstart.html"
-- title: Language Structure
+- title: 언어 구조
   path: "/language.html"
   children:
-  - title: Keywords
+  - title: 키워드
     path: "/language/keywords.html"
-  - title: Literals
+  - title: 리터럴
     path: "/language/literals.html"
-  - title: Comments
+  - title: 코멘트
     path: "/language/comments.html"
-  - title: Variables and Constants
+  - title: 변수와 상수
     path: "/language/variables-constants.html"
-  - title: Assignment
+  - title: 할당
     path: "/language/assignment.html"
-  - title: Control Expressions
+  - title: 제어문
     path: "/language/control-expressions.html"
-  - title: Defining methods
+  - title: 메소드 정의하기
     path: "/language/methods-def.html"
-  - title: Calling methods
+  - title: 메소드 호출하기
     path: "/language/methods-call.html"
-  - title: Modules and Classes
+  - title: 모듈과 클래스
     path: "/language/modules-classes.html"
-  - title: Exceptions
+  - title: 예외처리
     path: "/language/exceptions.html"
   - title: Refinements
     path: "/language/refinements.html"
   - title: Precedence
     path: "/language/precedence.html"
-  - title: Miscellaneous Syntax
+  - title: 그 밖의 문법
     path: "/language/misc.html"
-  - title: File Structure
+  - title: 파일 구조
     path: "/language/files.html"
   - title: Globals
     path: "/language/globals.html"
-  - title: Metaprogramming and DSL
+  - title: 메타프로그래밍과 DSL
     path: "/language/metaprogramming.html"
-- title: Built-in Classes
+- title: 내장 클래스
   path: "/builtin.html"
   children:
-  - title: Language Core
+  - title: 코어 부분
     path: "/builtin/core.html"
     children:
-    - title: Kernel
+    - title: 커널
       path: "/builtin/core/kernel.html"
-    - title: Object
+    - title: 객체
       path: "/builtin/core/object.html"
-    - title: Module and Class
+    - title: 모듈과 클래스
       path: "/builtin/core/module-class.html"
-    - title: Method and Proc
+    - title: 메소드와 프록(proc)
       path: "/builtin/core/method-proc.html"
     - title: Binding
       path: "/builtin/core/binding.html"
     - title: Fiber
       path: "/builtin/core/fiber.html"
-  - title: Value Types
+  - title: 타입
     path: "/builtin/types.html"
     children:
     - title: true, false, nil
@@ -74,47 +74,47 @@ chapters:
       path: "/builtin/types/comparable.html"
     - title: Numbers
       path: "/builtin/types/numbers.html"
-    - title: Symbol and String
+    - title: 심볼과 문자열
       path: "/builtin/types/symbol-string.html"
-    - title: Regexp
+    - title: 정규표현식
       path: "/builtin/types/regexp.html"
-    - title: Range
+    - title: 범위(range)
       path: "/builtin/types/range.html"
-    - title: Struct
+    - title: 구조체(struct)
       path: "/builtin/types/struct.html"
-    - title: Times and Dates
+    - title: 시간과 날짜
       path: "/builtin/types/times-dates.html"
     - title: Enumerable
       path: "/builtin/types/enumerable.html"
-    - title: Array
+    - title: 배열
       path: "/builtin/types/array.html"
-    - title: Hash
+    - title: 해시
       path: "/builtin/types/hash.html"
-    - title: Set
+    - title: 집합(set)
       path: "/builtin/types/set.html"
-    - title: Matrix
+    - title: 행렬(matrix)
       path: "/builtin/types/matrix.html"
-  - title: Exception
+  - title: 예외처리
     path: "/builtin/exception.html"
     children:
-    - title: Exception Classes
+    - title: 예외 클래스
       path: "/builtin/exception/exception-classes.html"
-  - title: Warning
+  - title: 경고 메시지
     path: "/builtin/warning.html"
-  - title: System Programming and CLI
+  - title: 시스템 프로그래밍과 CLI
     path: "/builtin/system-cli.html"
     children:
-    - title: Processes and Signals
+    - title: 프로세스와 시그널
       path: "/builtin/system-cli/processes-signals.html"
-    - title: IO Basics
+    - title: 입출력
       path: "/builtin/system-cli/io.html"
-    - title: Filesystem
+    - title: 파일시스템
       path: "/builtin/system-cli/filesystem.html"
-    - title: Arguments and Environment
+    - title: 아규먼트와 환경변수
       path: "/builtin/system-cli/args.html"
-  - title: Concurrency and Parallelism
+  - title: 동시처리와 병렬처리
     path: "/builtin/concurrency-parallelism.html"
-  - title: Interpreter Internals
+  - title: 인터프리터 내부
     path: "/builtin/internals.html"
     children:
     - title: RubyVM
@@ -123,10 +123,10 @@ chapters:
     path: "/builtin/marshal.html"
   - title: Random
     path: "/builtin/random.html"
-- title: Standard Library
+- title: 표준 라이브러리
   path: "/stdlib.html"
   children:
-  - title: Design Patterns
+  - title: 디자인 패턴
     path: "/stdlib/patterns.html"
     children:
     - title: forwardable
@@ -137,7 +137,7 @@ chapters:
       path: "/stdlib/patterns/observer.html"
     - title: singleton
       path: "/stdlib/patterns/singleton.html"
-  - title: Formats
+  - title: 파일 포맷
     path: "/stdlib/formats.html"
     children:
     - title: csv
@@ -146,36 +146,36 @@ chapters:
       path: "/stdlib/formats/json.html"
     - title: yaml
       path: "/stdlib/formats/yaml.html"
-    - title: 'rexml: XML parser and generator'
+    - title: 'rexml: XML 파서와 생성기'
       path: "/stdlib/formats/rexml.html"
     - title: rss
       path: "/stdlib/formats/rss.html"
     - title: zlib
       path: "/stdlib/formats/zlib.html"
-  - title: Development and Debugging
+  - title: 개발과 디버깅
     path: "/stdlib/development.html"
     children:
-    - title: benchmark
+    - title: 벤치마크
       path: "/stdlib/development/benchmark.html"
-    - title: 'bundler: Managing dependencies'
+    - title: 'bundler: 의존성 관리'
       path: "/stdlib/development/bundler.html"
     - title: coverage
       path: "/stdlib/development/coverage.html"
-    - title: debug
+    - title: 디버그
       path: "/stdlib/development/debug.html"
     - title: 'fiddle: FFI wrapper'
       path: "/stdlib/development/fiddle.html"
-    - title: logger
+    - title: 로거
       path: "/stdlib/development/logger.html"
-    - title: 'pp: Debug Print'
+    - title: 'pp: 디버그 출력'
       path: "/stdlib/development/pp.html"
-    - title: profiler
+    - title: 프로파일러
       path: "/stdlib/development/profiler.html"
     - title: 'ripper: Parsing Ruby'
       path: "/stdlib/development/ripper.html"
     - title: tracer
       path: "/stdlib/development/tracer.html"
-  - title: String Utilities
+  - title: 문자열 유틸
     path: "/stdlib/string-utilities.html"
     children:
     - title: 'erb: Ruby Templating'
@@ -188,7 +188,7 @@ chapters:
       path: "/stdlib/string-utilities/shellwords.html"
     - title: 'strscan: Sequental String Scanner'
       path: "/stdlib/string-utilities/strscan.html"
-  - title: Networking and Web
+  - title: 네트워킹과 웹
     path: "/stdlib/networking-web.html"
     children:
     - title: cgi
@@ -215,7 +215,7 @@ chapters:
       path: "/stdlib/networking-web/webrick.html"
     - title: uri
       path: "/stdlib/networking-web/uri.html"
-  - title: System Programming and CLI
+  - title: 시스템 프로그래밍과 CLI
     path: "/stdlib/cli.html"
     children:
     - title: 'etc: Access to Unix /etc'
@@ -238,7 +238,7 @@ chapters:
       path: "/stdlib/cli/shell.html"
     - title: win32ole
       path: "/stdlib/cli/win32ole.html"
-  - title: Cryptography and Encoding
+  - title: 암호화와 인코딩
     path: "/stdlib/cryptography-encoding.html"
     children:
     - title: base64
@@ -258,37 +258,37 @@ chapters:
       path: "/stdlib/misc/dbm.html"
     - title: timeout
       path: "/stdlib/misc/timeout.html"
-    - title: Other Libraries
+    - title: 그 밖의 라이브러리
       path: "/stdlib/misc/other.html"
-  - title: Bundled Gems
+  - title: 젬 묶기
     path: "/stdlib/bundled.html"
-- title: Developing in Ruby
+- title: 루비 개발
   path: "/developing.html"
   children:
-  - title: Libraries
+  - title: 라이브러리
     path: "/developing/libraries.html"
   - title: Mastering IRB
     path: "/developing/irb.html"
-  - title: Documenting Ruby Code
+  - title: 루비 코드 문서화
     path: "/developing/documenting.html"
-  - title: Testing Ruby Code
+  - title: 루비 코드 테스트
     path: "/developing/testing.html"
-  - title: Code Style
+  - title: 코드 스타일
     path: "/developing/code-style.html"
-- title: Advanced Topics
+- title: 심화 주제
   path: "/advanced.html"
   children:
-  - title: Developing C Extensions
+  - title: C 확장 개발하기
     path: "/advanced/extensions.html"
-  - title: Security
+  - title: 보안
     path: "/advanced/security.html"
   - title: DTrace
     path: "/advanced/dtrace.html"
   - title: Implementing Signal.trap callbacks
     path: "/advanced/signals.html"
-  - title: Contributing To Ruby
+  - title: 루비 기여하기
     path: "/advanced/contributing.html"
-- title: 'Appendix A: Kernel methods list'
+- title: '부록 A: 커널 메소드 목록'
   path: "/appendix-a.html"
-- title: 'Appendix B: Useful Links'
+- title: '부록 B: 유용한 링크'
   path: "/appendix-b.html"
