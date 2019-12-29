@@ -1,8 +1,8 @@
 ---
-title: Advanced Topics
+title: 심화 주제
 prev: "/developing/code-style.html"
 next: "/advanced/extensions.html"
 ---
 
-## Advanced Topics[](#advanced-topics)
+## 심화 주제[](#advanced-topics)
 
